@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vda-mail"
+version = "2025.1.0"
+authors = [
+  { name = "Akash Tanna", email = "Poweredbyakash@gmail.com" },
+  { name = "Powered By Akash", email = "support@poweredbyakash.in" },
+]
+description = "Virtual Development Assistant (VDA) - Automated SMTP Dispatcher & Transactional Email Engine for PBA Platforms"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Communications :: Email",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["smtp", "email", "automation", "vda", "virtual-development-assistant", "transactional-email"]
+
+[project.urls]
+"Homepage" = "https://github.com/Powered-By-Akash/VDA-Mail"
+"Website" = "https://www.poweredbyakash.in/"
+"Organization" = "https://github.com/Powered-By-Akash"
+"Bug Tracker" = "https://github.com/Powered-By-Akash/VDA-Mail/issues"
